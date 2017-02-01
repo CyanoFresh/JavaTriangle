@@ -24,9 +24,9 @@ public class Main {
         System.out.println("Введите y для т. C:");
         int CY = in.nextInt();
 
-        Point A = new Point(0, 0);
-        Point B = new Point(1, 0);
-        Point C = new Point(2, 0);
+        Point A = new Point(AX, AY);
+        Point B = new Point(BX, BY);
+        Point C = new Point(CX, CY);
 
         Triangle triangle = new Triangle(A, B, C);
 
